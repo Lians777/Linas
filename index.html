@@ -11,7 +11,7 @@
 		}
 		body{ background-color: brown;
 		font-family:arial;
-		padding: 30px; }
+		 }
 		td {
 			font-size: 30px;
 			background-color: red;
@@ -19,38 +19,44 @@
 			padding: 20px;
 			text-align: center;
 		}
-.lentele1 {width: 100%;
-position: center;}
+	.lentele1 {width: 100%;
+	position: center;}
 
-.b1 { background-color: green; }
-
-.b2 {background-color: red; }
-
-.b3 {background-color: pink; }
-
-.bendras {
-	padding: 30px;
-	float: left;
-	width: 200px;
-	height: 50px;
-	color: white;
 }
 div {
-	padding: 30px;
-	float: left;
-	width: 200px;
-	height: 50px;
-	color: white;
-}
-.nuoroda {
-	border: solid; 
-	background-color: gold;
-	padding: 20px;
-	border-radius: 10px;
-	border: solid black;
+-	padding: 30px;
+-	float: left;
+-	width: 200px;
+-	height: 50px;
+-	color: white;}
+
+	.nuoroda { border: solid;
+-	background-color: gold;
+-	padding: 20px;
+-	border-radius: 10px;
+-	border-style: solid; 
++	border-color: gold ;
+	color: silver;
 }
 
+	#i {background-color: yellow;
+	color: green;
+	width: 100%;
+	height: 200px;
+	float: left;}
+	#a {width: 200px;
+		height: 200px;
+		background-color: red;
+		color: green;
+		float: left;
+
+	}
+
+
+
+
 	</style>
+
 
 
 	
@@ -59,13 +65,18 @@ div {
 </head>
 
 <body>
+<div id="i">
+	<div id="a"></div>
+</div>
+
 <h1>mano portfolio</h1>
 <h2>apie mane</h2>
 <p class="paragrafas">as esu programuotojas mokausi php</p>
 <h2>lainkiauios svetaines</h2>
 <a class="nuoroda" href="http://www.delfi.lt/">delfi</a >
 <a class="nuoroda" href="https://www.facebook.com/">fb</a>
-
+<a class="nuoroda" href="kontaktai.html">kontaktai</a>
+<a class="nuoroda" href="psl.html">apie mane</a>
 
 <h2>muzikos top 5</h2>
 <ol>
@@ -107,11 +118,6 @@ div {
 
 </tbody>
 </table>
-
-<div class="b1" id="bendras">blokas1</div>
-<div class="b2" id="bendras">blokas2</div>
-<div class="b3" id="bendras">blokas3</div>
-<div>mano vardas</div>
 
 </body>
 </html>
